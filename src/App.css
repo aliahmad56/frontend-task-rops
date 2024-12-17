@@ -1,0 +1,128 @@
+/* @import "~antd/dist/antd.css"; */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.component-content {
+  padding: 3em;
+}
+
+.disabled-link {
+  pointer-events: none;
+}
+
+.drawer {
+  padding: 2em;
+}
+
+.drawer-content {
+  padding: 2em;
+}
+
+.drawer-components {
+  margin-top: 1em;
+}
+
+.gray {
+  color: gray;
+}
+
+.black {
+  color: black;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-picker-panels {
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-picker-panels > *:last-child .ant-picker-body {
+  /* to make calendar responsive */
+  display: none !important;
+}
+
+.ant-col-lg-13 {
+  max-width: 100%;
+}
+.resource-form .ant-col.ant-form-item-label,
+.project-form .ant-col.ant-form-item-label {
+  display: flex;
+}
+.resource-form .ant-col.ant-form-item-control,
+.project-form .ant-col.ant-form-item-control {
+  margin-right: 16px;
+}
+
+.ant-picker-panel {
+  height: 350px;
+}
+
+.bold-row td {
+  font-weight: bold;
+}
+
+.ant-timeline-item-label {
+  width: auto !important;
+  padding-right: 5px !important;
+}
+
+.ant-timeline-item-tail {
+  inset-inline-start: 9% !important;
+}
+
+.ant-timeline-item-content {
+  inset-inline-start: calc(9% - 4px) !important;
+  width: 70% !important;
+}
+.ant-timeline-item-head {
+  inset-inline-start: 9% !important;
+}
+
+.custom-badge .ant-badge-status-dot {
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.preview_image_icon .anticon-eye {
+  width: 100% !important;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
